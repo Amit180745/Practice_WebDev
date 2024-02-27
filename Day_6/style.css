@@ -12,7 +12,7 @@ body{
     border-top-color: white;
     animation: spin 0.7s linear infinite;
     border-radius: 50%;
-    transition: transform (.4s);
+    /* transition: transform .4s; */
 }
 @keyframes spin{
 0%{
