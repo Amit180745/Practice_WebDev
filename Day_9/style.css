@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(12, 12, 12);
+}
+.logo{
+    height: 105px;
+    width: 180px;
+}
+
+.navlogo{
+    /* background-color: red; */
+    max-width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+}
+.dropD{
+    height: 32px;
+    width: 124px;
+    background:transparent;
+    color: white;
+    font-weight:500;
+    font-size: 17px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-color:rgba(255, 255, 255, 0.376) ;
+
+}
+.SignBtn{
+    margin-left: 20px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    height: 30px;
+    width: 77px;
+    border-radius: 5px;
+    /* text-decoration: none; */
+    border: none;
+}
+.bg{
+    background-position: center center;
+    position: relative;
+    height: 80vh;
+    /* width: 100%;  */
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    background: linear-gradient(to top, 
+    rgba(0, 0, 0, 0.95) 0, 
+    rgba(0, 0, 0, 0) 65%, 
+    rgba(0, 0, 0, 0.95) 100%),url(/Day_9/images/bg1.jpeg);
+}
+.box{
+    height: 80vh;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+}
+.hero{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    gap: 22px;
+    position: relative;
+    padding: 30px;
+}
+
+.hero> :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+input{
+    height: 55px;
+    width: 370px;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: black;
+    opacity: 0.55;
+    color: white;
+    font-size: 17px;
+    border: 1px solid;
+}
+.btn1{
+    height: 57px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border:none;
+}
+.set{
+    display: flex;
+    gap: 8px;
+}
