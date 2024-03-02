@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(0, 0, 0);
 }
 .logo{
     height: 105px;
@@ -12,7 +12,7 @@ body{
 
 .navlogo{
     /* background-color: red; */
-    max-width: 80vw;
+    max-width: 76vw;
     display: flex;
     margin: auto;
     justify-content: space-between;
@@ -47,17 +47,17 @@ body{
 .bg{
     background-position: center center;
     position: relative;
-    height: 80vh;
+    height: 81vh;
     /* width: 100%;  */
     background-size: max(1200px,100vw);
     background-repeat: no-repeat;
     background: linear-gradient(to top, 
-    rgba(0, 0, 0, 0.95) 0, 
+    rgba(0, 0, 0, 0.85) 0, 
     rgba(0, 0, 0, 0) 65%, 
-    rgba(0, 0, 0, 0.95) 100%),url(/Day_9/images/bg1.jpeg);
+    rgba(0, 0, 0, 0.85) 100%),url(assets/bg1.jpeg);
 }
 .box{
-    height: 80vh;
+    height: 81vh;
     width: 100%;
     top: 0;
     position: absolute;
@@ -92,9 +92,9 @@ body{
     font-weight: 400;
     text-align: center;
 }
-input{
-    height: 55px;
-    width: 370px;
+.userIn{
+    height: 54px;
+    width: 360px;
     border-radius: 5px;
     padding-left: 20px;
     background-color: black;
@@ -104,16 +104,88 @@ input{
     border: 1px solid;
 }
 .btn1{
-    height: 57px;
+    height: 55px;
     width: 200px;
     border-radius: 5px;
     background-color: red;
-    color: white;
+    color: rgba(255, 255, 255, 0.924);
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 540;
     border:none;
 }
 .set{
     display: flex;
     gap: 8px;
+}
+
+.line{
+    width: 100%;
+    height: 8px;
+    background-color: rgba(78, 76, 76, 0.44);
+    margin-bottom: 50px;
+}
+
+.bg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 76vw;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.v1{
+    position: relative;
+}
+.ad1{
+    position: relative;
+    width: 38vw;
+    z-index: 1;
+    background: transparent;
+}
+.vid1{
+    width: 28vw;
+    position: absolute;
+    top: 97px;
+    right: 87px;
+}
+.bg2-f1{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 85px;
+    color: white;
+}
+.bg2-f2{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.bg3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 76vw;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.bg3-f1{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 10px;
+}
+.bg3-f2{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 24px;
+    color: white;
+    line-height: 30px;
+}
+
+.vid2{
+    width: 24vw;
+    position: absolute;
+    top: 53px;
+    right: 122px;
 }
