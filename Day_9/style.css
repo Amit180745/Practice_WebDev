@@ -214,3 +214,7 @@ body{
     margin: 8px auto;
 }
 
+.faqbox svg{
+    filter: invert(1);
+}
+
