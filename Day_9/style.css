@@ -238,5 +238,6 @@ body{
 
 .footer{
     max-width: 74vw;
-
+    display: flex;
+    
 }
