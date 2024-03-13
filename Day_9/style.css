@@ -237,7 +237,34 @@ body{
 }
 
 .footer{
-    max-width: 74vw;
+    margin-top: 200px;
+    max-width: 77vw;
+    margin: auto;
+    color: #FFFFFFB3;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+}
+.no{
+    text-decoration: underline;
+}
+
+.col1-items{
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration:underline;
     display: flex;
-    
+    column-gap: 40px;
+    line-height: 35px;
+    font-size: 14px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+.col1-items:hover{
+    cursor: pointer;
+}
+.footer-content{
+margin-top: 20px;
+}
+li{
+   width:17vw;
 }
