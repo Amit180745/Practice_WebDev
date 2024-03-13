@@ -2,3 +2,24 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url(./assets/login-bg.jpeg);
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+.box{
+    height: 85vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    opacity: 0.5;
+}
+.login{
+    position: absolute;
+    margin-top: 100px;
+    height: 707px;
+    width: 450px;
+    background-color: black;
+    opacity: 0.7;
+
+}
