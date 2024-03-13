@@ -237,9 +237,9 @@ body{
 }
 
 .footer{
-    margin-top: 200px;
     max-width: 77vw;
     margin: auto;
+    padding: 20px;
     color: #FFFFFFB3;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     font-size: 16px;
@@ -263,8 +263,14 @@ body{
     cursor: pointer;
 }
 .footer-content{
-margin-top: 20px;
+margin-top: 15px;
+font-size: 14px;
+margin-bottom: 50px;
 }
 li{
    width:17vw;
+}
+.lan{
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
