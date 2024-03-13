@@ -38,8 +38,33 @@ body{
     z-index: 2;
 }
 .box1{
+    color: #FFFFFFB3;
     height: 30vh;
     width: 100%;
     background-color: black;
     opacity: 0.85;
+}
+.footer-content{
+    margin-top: 100px;
+    margin: auto;
+    max-width: 77vw;
+    font-size: 14px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+li{
+    width:17vw;
+}
+.col1-items{
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration:underline;
+    display: flex;
+    column-gap: 40px;
+    line-height: 35px;
+    font-size: 14px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+.col1-items:hover{
+    cursor: pointer;
 }
