@@ -43,6 +43,7 @@ body{
     border-radius: 5px;
     /* text-decoration: none; */
     border: none;
+    cursor: pointer;
 }
 .bg{
     background-position: center center;

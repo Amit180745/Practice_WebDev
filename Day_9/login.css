@@ -12,7 +12,7 @@ body{
     width: 180px;
 }
 .navbar{
-    margin-left: 170px;
+    margin-left: 195px;
     z-index: 5;
     position: absolute;
 }
@@ -52,7 +52,7 @@ body{
     /* margin: auto; */
 }
 .footer-content{
-    margin-left: 190px;
+    margin-left: 210px;
     font-size: 16px;
     line-height: 2.8;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
