@@ -5,7 +5,6 @@
 body{
     background-image: url(./assets/login-bg.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
 }
 .logo{
     height: 105px;
@@ -22,7 +21,7 @@ body{
     align-items: center;
 }
 .box{
-    height: 87vh;
+    height: 95vh;
     width: 100%;
     position: relative;
     background-color: black;
@@ -30,7 +29,7 @@ body{
 }
 .login{
     position: absolute;
-    margin-top: 40px;
+    margin-top: 30px;
     height: 700px;
     width: 440px;
     background-color: black;
@@ -38,17 +37,22 @@ body{
     z-index: 2;
 }
 .box1{
+    position: relative;
     color: #FFFFFFB3;
-    height: 30vh;
+    height: 31vh;
     width: 100%;
     background-color: black;
     opacity: 0.85;
 }
+.footer{
+    position: absolute;
+    margin-top: 40px;
+    /* margin: auto; */
+}
 .footer-content{
-    margin-top: 100px;
-    margin: auto;
-    max-width: 77vw;
+    margin-left: 190px;
     font-size: 14px;
+    line-height: 2.8;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 li{
@@ -67,4 +71,20 @@ li{
 }
 .col1-items:hover{
     cursor: pointer;
+}
+.lan{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.dropD{
+    height: 32px;
+    width: 124px;
+    background:transparent;
+    color: white;
+    font-weight:500;
+    font-size: 17px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-color:rgba(255, 255, 255, 0.376) ;
+
 }
