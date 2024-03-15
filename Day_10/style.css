@@ -1,0 +1,22 @@
+.circle{
+background: linear-gradient(rgb(245, 24, 24),
+rgb(48, 48, 233),
+rgb(32, 235, 32),
+rgb(177, 177, 6),
+rgb(236, 171, 49));
+height: 250px;
+width: 250px;
+border-radius: 50%;
+padding: 15px;
+}
+
+.img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-image:url(./img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -70px; /* x, y */ 
+    
+}
