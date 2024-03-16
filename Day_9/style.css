@@ -46,16 +46,18 @@ body{
     cursor: pointer;
 }
 .bg{
-    background-position: center center;
-    position: relative;
-    height: 81vh;
-    /* width: 100%;  */
-    background-size: max(1200px,100vw);
-    background-repeat: no-repeat;
+    /* position: relative; */
+    /* height: 81vh; */
     background: linear-gradient(to top, 
     rgba(0, 0, 0, 0.85) 0, 
     rgba(0, 0, 0, 0) 65%, 
     rgba(0, 0, 0, 0.85) 100%),url(assets/bg1.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+
+
+
 }
 .box{
     height: 81vh;
@@ -76,6 +78,7 @@ body{
     gap: 22px;
     position: relative;
     padding: 30px;
+    margin-top: 150px;
 }
 
 .hero> :nth-child(1){
@@ -117,6 +120,7 @@ body{
 .set{
     display: flex;
     gap: 8px;
+    margin-bottom: 150px;
 }
 
 .line{
@@ -135,19 +139,23 @@ body{
     margin-bottom: 70px;
 }
 .v1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 .ad1{
     position: relative;
     width: 38vw;
-    z-index: 1;
+    z-index: 10;
     background: transparent;
 }
 .vid1{
-    width: 28vw;
+    width: 27.5vw;
     position: absolute;
-    top: 97px;
-    right: 87px;
+    margin: auto;
+    top: 100px;
+    right: 91px;
 }
 .bg2-f1{
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
@@ -183,19 +191,28 @@ body{
     color: white;
     line-height: 30px;
 }
-
+.v3{
+    display: flex;
+    position: relative;
+}
+.ad3{
+    position: relative;
+    width: 38vw;
+    z-index: 10;
+    background: transparent;
+}
 .vid2{
+    margin: auto;
     width: 24vw;
-    position: absolute;
+    position: absolute; 
     top: 53px;
-    right: 122px;
+    right: 122px; 
 }
 
 .faq h2{
     text-align: center;
     font-size: 48px;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    /* margin-top: 60px; */
     margin-bottom: 20px;
 }
 
@@ -280,6 +297,3 @@ li{
 /* -------> Making Responsive <------- */
 
 
-@media screen {
-    
-}
