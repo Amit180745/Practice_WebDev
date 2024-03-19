@@ -297,7 +297,7 @@ li{
 /* -------> Making Responsive <------- */
 
 @media screen and (min-width: 480px) {
-    body {
-      background-color: lightgreen;
+    .bg2{
+    width: auto;
     }
   }
