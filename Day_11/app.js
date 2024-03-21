@@ -24,7 +24,6 @@ app.get('/greet/:name',(req,res)=>{
     res.send(`Aur, Kyaa Haal Chaal Hai? ${req.params.name}`);
 })
 
-// Query parameters req: '/bye?name=aman&city=delhi
 app.get('/bye',(req,res)=>{
     res.send(`Aur, Chalo Milte hai baad mei? ${req.query.name} from ${req.query.city}`);
 })
