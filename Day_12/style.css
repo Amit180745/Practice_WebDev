@@ -3,7 +3,7 @@
     height: 300px;
     width: 300px;
     border: 5px solid blue;
-    background: linear-gradient(orange, green, blue, pink);
+    background: linear-gradient(Red, orange, green, blue, pink);
     border-radius: 50%;
 }
 
