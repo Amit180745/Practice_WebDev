@@ -4,8 +4,8 @@
 }
 .navbar{
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 .navlogo{
     height: 100px;
