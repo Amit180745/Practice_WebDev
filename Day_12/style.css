@@ -1,9 +1,9 @@
-.box{
-    margin: auto;
-    height: 300px;
-    width: 300px;
-    border: 5px solid blue;
-    background: linear-gradient(Red, orange, green, blue, pink);
-    border-radius: 50%;
+*{
+    margin: 0;
+    padding: 0;
 }
 
+.navlogo{
+    height: 100px;
+    width: 170px;
+}
