@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .navlogo{
     height: 100px;
     width: 170px;
