@@ -1,4 +1,4 @@
-// let btn = document.querySelector('.btn')
-// btn.addEventListener('click',(ev)=>{
-//     console.log("I am Clicked!");
-// })
+let btn = document.querySelector('.btn1')
+btn.addEventListener('click',(ev)=>{
+    console.log("Dab gaya bhai!");
+})
