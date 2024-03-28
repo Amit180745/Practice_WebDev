@@ -12,9 +12,14 @@
     width: 160px;
 }
 .inp{
-    font-size: 20px;
+    padding: 5px;
+    font-size: 18px;
     width: 20%;
 }
 .btn1{
+    padding: 5px;
+    font-size: 18px;
+    width: 6vw;
+    background-color: red;
     
 }
