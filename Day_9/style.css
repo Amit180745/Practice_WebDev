@@ -98,7 +98,7 @@ body{
 }
 .userIn{
     height: 54px;
-    width: 360px;
+    width: 380px;
     border-radius: 5px;
     padding-left: 20px;
     background-color: black;
@@ -109,11 +109,11 @@ body{
 }
 .btn1{
     height: 55px;
-    width: 200px;
+    width: 150px;
     border-radius: 5px;
     background-color: red;
     color: rgba(255, 255, 255, 0.924);
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 540;
     border:none;
 }
