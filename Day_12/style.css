@@ -1,29 +1,19 @@
+label{
+    font-size: 30px;
+    display: block;
+}
+input{
+    height: 20px;
+    width: 14rem;
+}
+form{
+    height: 26rem;
+    width: 35rem;
+    /* border:  2px solid black; */
+    margin: 3px auto;
+}
 
-.navbar{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.navlogo{
-    height: 90px;
-    width: 160px;
-}
-.inp{
-    padding: 5px;
-    font-size: 16px;
-    width: 20%;
-}
-.btn1{
-    padding: 5px;
-    font-size: 20px;
-    width: 6vw;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
-.box{
-    max-width: 80vw;
-    border: 2px solid black;
-    margin: auto;
+span{
+    color: red;
+    font-size: 25px;
 }
