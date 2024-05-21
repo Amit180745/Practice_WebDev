@@ -1,22 +1,34 @@
 const songsList = [
     {
-        name: "Jazz In Paris",
-        artist: "Media Right Productions",
-        src: "assets/1.mp3",
-        cover: "assets/1.jpg"
+        name: "Lemonade",
+        artist: "Diljit Dosanjh",
+        src: "assets/DD1.mp3",
+        cover: "assets/DD1.jpeg"
     },
     {
-        name: "Blue Skies",
-        artist: "Silent Partner",
-        src: "assets/2.mp3",
-        cover: "assets/2.jpg"
+        name: "Ho Raat Di Gedi",
+        artist: "Diljit Dosanjh",
+        src: "assets/DD2.mp3",
+        cover: "assets/DD2.jpeg"
     },
     {
-        name: "Crimson Fly",
-        artist: "Huma-Huma",
-        src: "assets/3.mp3",
-        cover: "assets/3.jpg"
-    }
+        name: "Lover",
+        artist: "Diljit Dosanjh",
+        src: "assets/DD3.mp3",
+        cover: "assets/DD3.jpeg"
+    },
+    {
+        name: "Born To Shine",
+        artist: "Diljit Dosanjh",
+        src: "assets/DD4.mp3",
+        cover: "assets/DD4.jpeg"
+    },
+    {
+        name: "Jatt Vailly",
+        artist: "Diljit Dosanjh",
+        src: "assets/DD5.mp3",
+        cover: "assets/DD5.jpeg"
+    },
 ];
 
 const artistName = document.querySelector('.artist-name');
