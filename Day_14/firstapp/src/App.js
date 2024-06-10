@@ -1,7 +1,12 @@
 import React from 'react';
 function App() {
   return (
-    <h1>This is my first React Project</h1>
+    <div>
+      <h1>Hello World!</h1>
+    <div>
+      This is my first React Project
+    </div>
+    </div>
   );
 }
 
