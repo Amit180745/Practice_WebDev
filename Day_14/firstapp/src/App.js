@@ -4,7 +4,8 @@ function App() {
     <div>
       <h1>Hello World!</h1>
     <div>
-      This is my first React Project
+      This is my first React Project.
+      <button>Click Me!</button>
     </div>
     </div>
   );
