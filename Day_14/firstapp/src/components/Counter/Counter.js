@@ -8,12 +8,16 @@ const Counter = () => {
         if (counter > 0) {
             setCounter (counter-1)
         }
+        console.log("Decreasing Counter : ",counter);
     }
 
     function increase() {
         if (counter < 5) {
             setCounter (counter+1)
         }
+        //! counter is increased in above line but in console counter shows previous value means value before updating.
+        console.log("Increasing Counter : ",counter);
+
     }
 
   return (
