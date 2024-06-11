@@ -6,8 +6,8 @@ import TaskList from './components/TaskList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   <div>
+   <React.StrictMode>
      <App />
      <TaskList/>
-   </div>
+   </React.StrictMode>
 );
