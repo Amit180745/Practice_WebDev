@@ -5,9 +5,10 @@ const tasks = ['Cricket', 'Dance', 'Sing']
 const TaskList = () => {
   return (
     <div>
-        {tasks.map((t)=>{
-        return <div>{t}</div>
-    })}
+        {tasks.map((t,indx)=>
+        // return <div key={indx} >{t}</div>
+        <div key={indx} >{t}</div>
+    )}
     </div>
     
   )
