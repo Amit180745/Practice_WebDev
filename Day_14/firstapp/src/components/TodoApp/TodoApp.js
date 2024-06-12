@@ -9,7 +9,6 @@ const TodoApp = () => {
     return (
     <div>
         <h2>Todo App</h2>
-
         {/* TodoList({tasks}) */}
         <TodoList tasks = {tasks}/>
     </div>

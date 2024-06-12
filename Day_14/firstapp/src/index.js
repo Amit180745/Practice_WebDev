@@ -13,7 +13,7 @@ root.render(
    <React.StrictMode>
      {/* <App /> */}
      {/* <TaskList/> */}
-     <Counter/>
+     {/* <Counter/> */}
      <TodoApp/>
    </React.StrictMode>
 );
