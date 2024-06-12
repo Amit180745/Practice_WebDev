@@ -1,14 +1,14 @@
 import React from 'react';
 import classes from './TodoItem.module.css';
 
-const TodoItem = ({taskName}) => {
+const TodoItem = ({taskName, decreasePriority, increasePriority, deleteTask}) => {
   return (
     <div className={classes['taskItem']}>
         <div className={classes['taskName']}>{taskName}</div>
         <div className={classes['btngroup']}>
-        <button>⬆️</button>
-        <button>⬇️</button>
-        <button>❌</button>
+        <button onClick={() => increasePriority(taskName)}>⬆️</button>
+        <button onClick={() => decreasePriority(taskName)}>⬇️</button>
+        <button onClick={()=> deleteTask(taskName)}>❌</button>
         </div>
     </div>
   )
