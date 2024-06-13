@@ -1,24 +1,53 @@
 import React, { useState } from 'react';
 import TodoList from '../TodoList/TodoList';
+import TodoInput from '../TodoInput/TodoInput';
+
 
 const TodoApp = () => {
  
-    let initialTasks = ["Cricket", "Dance", "Sing"]
+    let initialTasks = []
     const [tasks, setTasks] = useState(initialTasks);
 
+    function addTask(newTask){
+        setTasks([newTask, ...tasks])
+    }
+
     function decreasePriority(taskName){
+        let newTask = [...tasks];
+        let index = newTask.indexOf(taskName);
+        if (index < newTask.length - 1) {
+            let temp = newTask[index];
+            newTask[index] = newTask[index + 1];
+            newTask[index + 1] = temp;
+            setTasks(newTask)
+        }
         console.log("You are trying to reduce the priority",taskName);
     }
+
+
     function increasePriority(taskName){
+        let newTask = [...tasks];
+        let index = newTask.indexOf(taskName);
+        if (index > 0) {
+            let temp = newTask[index];
+            newTask[index] = newTask[index-1];
+            newTask[index - 1] = temp;
+            setTasks(newTask)
+        }
         console.log("You are trying to increase the priority",taskName);
     }
+
+
     function deleteTask(taskName){
+        let newTask = tasks.filter(t => t!== taskName);
+        setTasks(newTask)
         console.log("You are trying to deleting",taskName);
     }
 
     return (
     <div>
         <h2>Todo App</h2>
+        <TodoInput addTask={addTask}/>
         {/* TodoList({tasks}) */}
         <TodoList 
             tasks={tasks}
